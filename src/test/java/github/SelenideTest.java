@@ -30,7 +30,6 @@ public class SelenideTest {
         // открыть страницу SoftAssertions
         open("https://github.com/selenide/selenide/wiki/SoftAssertions");
         //проверить что внутри есть пример кода для JUnit5
-        $(".page").shouldHave(text("Using JUnit5 extend test class"))
-                .shouldBe(visible);
+        $(".page").shouldHave(text("Using JUnit5 extend test class"));
     }
 }

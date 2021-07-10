@@ -1,6 +1,8 @@
 # Gradle
 .gradle
 build/
+gradlew.bat
+gradlew
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
 !**/src/test/**/build/
@@ -50,3 +52,4 @@ bin/
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
+/gradle/
